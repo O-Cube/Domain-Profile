@@ -18,7 +18,7 @@
           <v-col cols="3" class="firstcolumn">
             <v-navigation-drawer theme="grey" permanent rail style="width: 20vw">
               <v-list>
-                <v-list-item prepend-avatar="../public/pic/cv.jpg">
+                <v-list-item prepend-avatar="pic/cv.jpg">
                   Personal Information
                 </v-list-item>
               </v-list>
