@@ -7,7 +7,7 @@ COPY . .
 RUN npm run build
 
 FROM nginx:latest AS runner
-COPY --from=builder /app /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
 COPY ./nginx.conf /etc/nginx/nginx.conf
 EXPOSE 1-65535
 CMD ["nginx", "-g", "daemon off;"]
