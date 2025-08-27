@@ -15,5 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: 'http://www.obed-oyandut.com/',
+  base: 'http://www.obed-oyandut.com',
 })
